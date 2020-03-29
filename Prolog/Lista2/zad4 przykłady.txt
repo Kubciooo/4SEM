@@ -1,0 +1,26 @@
+uprosc((a+b)/(a+b),X).
+X = 1;
+
+uprosc((a*b)/a+b,X).
+X = b+b;
+
+uprosc(a*(b*c/c-b)+(b*b*b/b/b/b),X).
+X = 1;
+
+uprosc(3*4*a + 3*3*a, X).
+X = 21*a;
+
+uprosc(3*4*a + 3*3*a + (5*2*b + 10*b) + 5, X).
+X = 21*a+20*b+5;
+
+uprosc(4/4*a + 3*5/15*a, X).
+X = 2*a;
+
+uprosc(2*b+b,X).
+X = 3*b;
+
+uprosc((2*b+b)/b,X).
+X = 3;
+
+uprosc((2*b+b)/3,X).
+X = b;
