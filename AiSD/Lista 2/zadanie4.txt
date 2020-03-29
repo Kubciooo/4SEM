@@ -1,0 +1,7 @@
+jak użyć insert-merge: 
+1) ./main --type insert-merge --datatype string|int|float --MAX liczba(na jakim rozmiarze tablicy ma wchodzić insertsort) --cmp '<='|'>='|plik.txt (w plik.txt podajemy porządek)
+Potem podajemy n oraz n danych.
+2) tutaj generujemy tylko inty, a MAX jest ustalony na jak najbardziej optymalny: ./main --type insert-merge --cmp '<=' --data nazwapliku.txt k
+
+
+Na podstawie wykonywanych doświadczeń dla różnych stałych MAX doszedłem do wniosku, że insertSort jest dużo bardziej wydajny dla małych tablic wielkości rzędu 4. 

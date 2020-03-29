@@ -1,0 +1,5 @@
+Eksperymentalne wyznaczanie stałej dla (średnia ilość porównań w dualPivotQuick Sort)/(średnia ilość porównań w quickSort): 
+Stworzyłem dwa duże pliki zawierające dane dla quickSorta i dualPivotQuickSorta, dla k = 1000. 
+Następnie w pythonie obliczyłem średnią dla danego n i na tej podstawie porównywałem dane. Stała, która wynosi 1.1600371115488226 to jest największy wynik dzielenia, jaki znalazłem.
+
+Na wykresach widać, że im większy rozmiar tablicy, tym lepiej radzi sobie dualPivotQuickSort w porównaniu ze swykłym quickSortem. 

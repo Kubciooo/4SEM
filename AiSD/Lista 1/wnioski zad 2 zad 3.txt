@@ -1,0 +1,3 @@
+Przy wyszukiwaniu tego samego elementu milion razy widać, że przy każdym odpaleniu programu mamy różne wyniki (od nawet 0,2s do 2s), co wynika z tego, że wyszukiwanie jest liniowe, więc czas wykonania zależy od tego, gdzie na liście znajduje się nasz element(jeżeli się znajduje). 
+
+Przy wyszukiwaniu losowego elementu milion razy natomiast wynik wynosi zawsze około 1,5s - 1,6s. Mówi nam to, że przy takiej ilości losowań to, co znajduje się na liście nie wpływa w takim stopniu na czas, ponieważ mając tylko 2000 elementów istnieje duża szansa, że każdy z elementów 1-2000 był szukany minimalnie raz. 
