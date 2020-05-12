@@ -1,0 +1,17 @@
+17
+insert aaa
+insert a
+insert b
+inorder
+successor aaa
+delete b
+max
+max
+load dane/sample.txt
+find three
+delete three
+find three
+find Three
+delete Three
+find Three
+min
