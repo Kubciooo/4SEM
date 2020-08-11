@@ -1,0 +1,2 @@
+odpalenie programu: 
+python zad5.py nazwa_pliku_wejściowego nazwa_pliku_wyjściowego liczba_kolorów
