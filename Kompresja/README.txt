@@ -17,3 +17,10 @@ Aby od razu odkodować plik należy odkomentować linijkę 187, zdekodowana wiad
 jeżeli się nie odpala - możliwe, że trzeba pobrać: 
 pip install bitarray
 
+/// 
+1: entropia
+2: kodowanie arytmetyczne
+3: kodowania: fibonacci, elias(gamma, delta), LZW
+4: Lossless JPEG
+5: codebook
+6: kwantyzacja 
